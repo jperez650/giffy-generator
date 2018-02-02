@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poiret One', cursive;
+  font-size:18;
+}
+*:focus { outline:none }
+
+
+
+#header h1{
+	color: #19A5FF;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 28px;
+}
+
+p{
+	color: #19A5FF;
+}
+
+footer p, 
+footer span {
+	color: #CC1514;
+}
+
+footer {
+	padding: 10px 0;
+	border-top: 2px solid #FFFC00;
+}
+
+button {
+	background-color: #B20909;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	margin: 10px;
+	padding: 5px 10px;
+	font-size: 22px;
+}
+button:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+.jumbotron {
+	background-color: yellow;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+#buttons-container{
+	text-align: center;
+}
