@@ -11,11 +11,7 @@ body {
 
 
 
-#header h1{
-	color: #19A5FF;
-	font-family: 'Pacifico', cursive;
-	margin-bottom: 28px;
-}
+
 
 p{
 	color: #19A5FF;
@@ -27,8 +23,8 @@ footer span {
 }
 
 footer {
-	padding: 10px 0;
-	border-top: 2px solid #FFFC00;
+	padding: 16px 0 10px;
+	border-top: 2px solid #19A5FF;
 }
 
 button {
@@ -37,11 +33,41 @@ button {
 	border-radius: 5px;
 	border: none;
 	margin: 10px;
-	padding: 5px 10px;
+	padding: 10px 15px;
 	font-size: 22px;
+	text-transform: capitalize;
 }
 button:hover {
     transform: scale(1.1) rotate(4deg);
+}
+img{
+	border-radius: 100%;
+	width: 200px;
+	height:200px;
+}
+form {
+	width: 50%;
+    margin: 20px auto 0 ;
+    text-align: center;
+    background-color: #CC1514;
+    border-radius: 5px;
+    padding: 15px 50px;
+    color: #fff;
+    height: 231px;
+}
+form p {
+	color: #fff;
+	text-transform: uppercase;
+	height: 26px;
+}
+label {
+	font-size: 22px;
+}
+#header h1{
+	color: #19A5FF;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 28px;
+	margin-top: 0;
 }
 .jumbotron {
 	background-color: yellow;
@@ -53,4 +79,40 @@ button:hover {
 
 #buttons-container{
 	text-align: center;
+}
+#pictures-container {
+	margin-top: 30px;
+}
+.wrap {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+#submit {
+	background-color: #19A5FF;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	form {
+		width: 98%;
+		padding: 10px 30px;
+	}
+	form #alert {
+		font-size: 16px;
+		text-decoration: underline;
+	}
+	img {
+		width: 160px;
+		height: 160px;
+	}
+	#header h1{
+		font-size: 3.2em;
+	}
+	.jumbotron p{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
 }
