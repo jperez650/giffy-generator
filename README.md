@@ -2,6 +2,7 @@
 
 
 One Paragraph of project description goes here
+// what is this and what does it do what is the purpose
 <img src="/assets/images/poster.jpg">
 ## Getting Started
 
