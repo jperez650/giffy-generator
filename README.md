@@ -11,14 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### And coding style tests
+Here is an example of my API request
 
-Explain what these tests test and why
-
 ```
-Give an example (3)
-```
-```
-code here
 $.get( queryURL, function(response) {}
 ```
 
@@ -36,9 +31,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Jose Perez** - *Initial work* - [giffy generator](https://github.com/jperez650/giffy-generator)
 
 ## License
 
@@ -47,8 +40,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
 
 
