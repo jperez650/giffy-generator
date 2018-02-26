@@ -35,7 +35,7 @@ $(document).ready(function() {
 		var baseURL = "https://api.giphy.com/v1/gifs/search?q="
 		// the limit for the items we are asking for
 		var limit = "&limit=10"
-		var apikey = "&api_key=dc6zaTOxFJmzC"
+		var apiKey = "&api_key=dc6zaTOxFJmzC"
 		/* here we are addind together our baseURL with our search string (seletedButtoon value),the limit to how many items we are getting back from our search and our API key creddentials which we store separately to keep it private */
 		var queryURL = baseURL+selectedButton+limit+apiKey;
 		//console.log(queryURL);
