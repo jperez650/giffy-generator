@@ -37,7 +37,7 @@ $(document).ready(function() {
 		var limit = "&limit=10"
 		var apiKey = "&api_key=dc6zaTOxFJmzC"
 		/* here we are addind together our baseURL with our search string (seletedButtoon value),the limit to how many items we are getting back from our search and our API key creddentials which we store separately to keep it private */
-		var queryURL = baseURL+selectedButton+limit+apiKey;
+		var queryURL = baseURL+selectedButton+limit+"&api_key=dc6zaTOxFJmzC";
 		//console.log(queryURL);
 		//this is a new method to get a json request
 		$.get( queryURL, function(response) {
